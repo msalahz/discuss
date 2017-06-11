@@ -1,0 +1,15 @@
+<h4>Topics</h4>
+
+<ul class="collection">
+  <%= for topic <- @topics do %>
+    <li class="collection-item">
+      <%= topic.title %>
+    </li>
+  <% end %>
+</ul>
+
+<div class="fixed-action-btn horizontal">
+  <a class="btn-floating btn-large waves-effect waves-light red">
+    <i class="large material-icons">add</i>
+  </a>
+</div>
